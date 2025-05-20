@@ -1,0 +1,21 @@
+# Dataset configuration
+data_dir: "data"
+scenario_type: "intersection"  # or "roundabout"
+scenario_id: "heckstrasse"     # for InD dataset
+
+# Model configuration
+state_dim: 8
+action_dim: 2
+hidden_dim: 256
+
+# Training configuration
+num_iterations: 10
+num_samples_per_iter: 1000
+elite_fraction: 0.1
+min_std: 0.1
+initial_std: 0.5
+mixture_components: 3
+mixture_update_freq: 2
+
+# Output configuration
+output_dir: "results/ceis_training" 
