@@ -8,17 +8,6 @@ This repository contains the implementation of the paper "Importance Sampling-Gu
 
 This project implements a novel training framework that integrates guided meta reinforcement learning with importance sampling (IS) to optimize training distributions for navigating highly interactive driving scenarios. The framework is particularly effective for scenarios like T-intersections and roundabouts, where traditional methods may struggle with balancing common and extreme cases.
 
-## Key Features
-
-- Integration of Importance Sampling (IS) with meta RL for improved training
-- Support for both synthetic and real-world driving scenarios
-- Implementation of the Cross Entropy Importance Sampling (CEIS) algorithm
-- Dataset handling for InD and RoundD datasets
-- Visualization tools for training progress and scenario analysis
-- Pretext task training for improved representation learning
-- Normalizing flows for importance sampling
-- Comprehensive evaluation scripts for ego and social vehicle policies
-
 ## Installation
 
 ```bash
